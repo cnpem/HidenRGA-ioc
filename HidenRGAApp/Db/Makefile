@@ -17,9 +17,7 @@ DB += hiden_rga_mid.template
 DB += hiden_rga_ld.template
 DB += hiden_rga_degas.template
 
-DB_INSTALLS += $(EPICS_BASE)/db/iocAdminSoft.db
-DB_INSTALLS += $(EPICS_BASE)/db/save_restoreStatus.db
-DB_INSTALLS += $(EPICS_BASE)/db/reccaster.db
+DB += hiden_rga.proto
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
